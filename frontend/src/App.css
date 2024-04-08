@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&disp');
+
+.App{
+    min-height: 100vh;
+    display: flex;
+    background-size: cover;
+    background-position: center;
+    color: black;
+    background-image: url("https://ik.imagekit.io/ably/ghost/prod/2023/02/the-ultimate-live-chat-features-list.png?tr=w-1728,q-50");
+}
+
+::-webkit-scrollbar{
+    width: 0px;
+}
+
+::-webkit-scrollbar-thumb{
+    background: rgba(136,136,136,0.281);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover{
+    background: #555;
+}
